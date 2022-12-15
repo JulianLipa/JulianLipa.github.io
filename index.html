@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang=”en”>
+
+<head>
+	<meta charset=”UTF-8”>
+	<title>Recomendaciones para el calor</title>
+
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="assets/images/sol.png" type="image/png">
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <section id="temporizador">
+            <div id="texto">
+                <p>En</p>
+                <p id="timer">20:00</p>
+                <p>es recomendable que te hidrates</p>
+            </div>
+
+            <div id="botonesTemporizador">
+                <button id="reiniciarTiempo"><img src="assets/images/reiniciar.png" alt=""></button>
+                <button id="pausarTiempo"><img id="pausaImg" src="assets/images/pausa.png" alt=""></button>
+            </div>
+        </section>
+
+        <div id="modal">
+            <div id="contenidoModal">
+                <img src="assets/images/gota.png" alt="">
+                <p>Antes de seguir navegando, acordate de tomar agua y no exponerte al sol. Hace mucho calor!</p>
+                <button id="cerrarModal">Entendido</button>
+            </div>
+        </div>
+
+        <article>
+            <img src="assets/images/sol.png" alt="">
+            <div id="textoArticle">
+                <h1 class="title">Recomendaciones para evitar un golpe de calor</h1>
+                <p class="subtitle">Seguí las siguientes recomendaciones para cuidar tu piel, evitar el golpe de calor, la deshidratación y otros problemas de salud.</p>
+            </div>
+            
+        </article>
+
+        <section class="carrousel">
+            <div id="contenidoCarrousel">
+                <button class="buttonCarrousel" id="retroceder">←</button>
+                <button class="buttonCarrousel" id="avanzar">→</button>
+            </div>
+
+            <img src="" id="imagen"></img>
+
+            <div id="paginador">
+                <p>1/3</p>
+            </div>
+        </section>
+
+        <section id="video">
+            <h2 class="subtitle"></h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7p8pZYrHeBo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <script src="assets/js/script.js"></script>
+
+    </main>
+</body>
+
+
+</html>
